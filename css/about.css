@@ -1,0 +1,32 @@
+/* Hero section */
+
+.hero{
+    width: 75%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+}
+
+.writing{
+    display: flex;
+    gap: 5rem;
+}
+
+img{
+    border-radius: 1.5rem;
+}
+
+.us{
+    color: #2A2A2A;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.about{
+    display: flex;
+    font-size: 1.3rem;
+    color: rgb(33, 30, 30);
+}

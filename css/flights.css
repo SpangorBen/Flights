@@ -1,0 +1,122 @@
+/* Hero Section */
+
+.hero{
+    width: 75%;
+    height: 500px;
+    margin: 5% auto;
+    display: flex;
+}
+
+.writing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title{
+    width: 75%;
+    color: #2A2A2A;
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 4.5rem;
+    font-weight: 900;
+}
+
+.hero img{
+    border-radius: 3rem;
+}
+
+.btn a{
+    padding-top: 30rem;
+
+}
+.btn{
+    font-weight: 700;
+    font-size: large;
+    border-radius: 5px;
+    padding: 15px 2.5rem;
+    align-self:flex-start;
+    background-color: black;
+    color: white;
+}
+
+/* Cards */
+
+.cartes{
+    /* overflow-x: scroll; */
+    width: 75%;
+    margin: 5% auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.offers{
+    color:#2A2A2A;
+    font-weight: 600;
+    font-size: 900;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.card{
+    transition: .3s ease-out;
+    display: flex;
+    border-radius: 3rem;
+    max-width: 390px;
+    max-height: 300px;
+    /* overflow: hidden; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    /* transform: rotate(360deg); */
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.info h2{
+    color:#2A2A2A;
+}
+
+.city{
+    margin-bottom: 2rem;
+}
+
+.card img{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    /* margin-right: 4rem; */
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.price{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p span{
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.book{
+    font-weight: 100;
+    font-size:small;
+    border-radius: 5px;
+    padding: .5rem;
+    align-self:flex-start;
+    background-color: black;
+    color: white;
+}
